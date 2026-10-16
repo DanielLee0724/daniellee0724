@@ -998,6 +998,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   box-shadow: 0 0 20px #ededed;
   padding: 60px 40px;
   color: white;
+  border-radius: 10px;
 }
 
 .contact-form-area h2 {
