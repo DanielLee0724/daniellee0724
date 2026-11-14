@@ -1086,7 +1086,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .footer-area .footer-text p {
   font-size: 20px;
-  margin-top: 20px;
+  margin-top: 5px;
   color: #fff;
 }
 
@@ -1237,7 +1237,7 @@ p {
 }
 
 .section-padding {
-  padding: 104px 0;
+  padding: 60px 5px;
 }
 
 .section-title {
