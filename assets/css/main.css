@@ -1719,14 +1719,14 @@ a.back-to-top i:hover {
 }
 
 body[data-theme="light"] {
-  --director-black: #f5f1fc;
+  --director-black: #f1f2f3;
   --director-surface: #fff;
-  --director-surface-raised: #eee7f8;
-  --director-line: #d9cdea;
-  --director-white: #302342;
-  --director-copy: #514663;
-  --director-muted: #746586;
-  --director-silver: #d8c8ed;
+  --director-surface-raised: #e5e6e8;
+  --director-line: #d1d3d5;
+  --director-white: #111214;
+  --director-copy: #111214;
+  --director-muted: #111214;
+  --director-silver: #d7d8da;
 }
 
 body[data-theme="light"] #about,
@@ -1746,19 +1746,19 @@ body[data-theme="light"] #contact::before,
 body[data-theme="light"] footer.footer-area::before {
   opacity: 0.55;
   background-image:
-    linear-gradient(117deg, transparent 20%, rgba(108, 72, 158, 0.15) 40%, rgba(108, 72, 158, 0.04) 48%, transparent 58%),
-    linear-gradient(292deg, transparent 28%, rgba(127, 91, 174, 0.12) 43%, transparent 56%),
-    repeating-linear-gradient(0deg, rgba(108, 72, 158, 0.04) 0 1px, transparent 1px 72px),
-    repeating-linear-gradient(90deg, rgba(108, 72, 158, 0.04) 0 1px, transparent 1px 72px);
+    linear-gradient(117deg, transparent 20%, rgba(108, 112, 118, 0.15) 40%, rgba(108, 112, 118, 0.04) 48%, transparent 58%),
+    linear-gradient(292deg, transparent 28%, rgba(127, 131, 136, 0.12) 43%, transparent 56%),
+    repeating-linear-gradient(0deg, rgba(108, 112, 118, 0.04) 0 1px, transparent 1px 72px),
+    repeating-linear-gradient(90deg, rgba(108, 112, 118, 0.04) 0 1px, transparent 1px 72px);
 }
 
 body[data-theme="light"] #header-wrap .navbar,
 body[data-theme="light"] .top-nav-collapse,
 body[data-theme="light"] .top-nav-collapse.indigo,
 body[data-theme="light"] .indigo {
-  background: rgba(250, 247, 255, 0.96) !important;
+  background: rgba(248, 249, 250, 0.96) !important;
   border-bottom-color: var(--director-line);
-  box-shadow: 0 8px 28px rgba(62, 42, 87, 0.12);
+  box-shadow: 0 8px 28px rgba(40, 42, 45, 0.12);
 }
 
 body[data-theme="light"] .navbar-expand-lg .navbar-nav .nav-link,
@@ -1783,13 +1783,13 @@ body[data-theme="light"] .theme-toggle:focus-visible {
 }
 
 body[data-theme="light"] #hero-area .overlay {
-  background: linear-gradient(112deg, rgba(247, 240, 255, 0.82), rgba(224, 206, 247, 0.64), rgba(248, 243, 255, 0.86));
+  background: linear-gradient(112deg, rgba(245, 246, 247, 0.82), rgba(218, 220, 223, 0.64), rgba(248, 249, 250, 0.86));
   background-size: 220% 220%;
   opacity: 0.55;
 }
 
 body[data-theme="light"] #hero-area .contents h3 {
-  color: #43205f !important;
+  color: #000 !important;
 }
 
 body[data-theme="light"] #about .about-profile,
@@ -1797,14 +1797,14 @@ body[data-theme="light"] #about .about-profile .pro-title,
 body[data-theme="light"] #about .about-profile .pro-title::after,
 body[data-theme="light"] #about .about-profile .pro-detail,
 body[data-theme="light"] #about h6 {
-  color: #43205f;
+  color: #000;
 }
 
 body[data-theme="light"] .timeline li .content-text,
 body[data-theme="light"] .services-item,
 body[data-theme="light"] .contact-form-area {
   background: rgba(255, 255, 255, 0.9);
-  box-shadow: 0 18px 42px rgba(62, 42, 87, 0.08);
+  box-shadow: 0 18px 42px rgba(40, 42, 45, 0.08);
 }
 
 body[data-theme="light"] .btn-common,
@@ -1833,8 +1833,8 @@ body[data-theme="light"] .profile-wrapper .btn-danger {
 
 body[data-theme="light"] .profile-wrapper .btn-common:hover,
 body[data-theme="light"] .profile-wrapper .btn-danger:hover {
-  background: #c4a9e3;
-  border-color: #c4a9e3;
+  background: #c7c9cc;
+  border-color: #c7c9cc;
   color: var(--director-white);
 }
 
@@ -1845,7 +1845,7 @@ body[data-theme="light"] #services .section-title,
 body[data-theme="light"] #services .services-item .icon i,
 body[data-theme="light"] .services-item .icon i,
 body[data-theme="light"] .services-item .services-content h3 a {
-  color: #43205f;
+  color: #000;
 }
 
 body[data-theme="light"] .timeline li:before {
@@ -1867,7 +1867,7 @@ body[data-theme="light"] .shot-item img {
 }
 
 body[data-theme="light"] .shot-item .overlay {
-  background: rgba(48, 35, 66, 0.58);
+  background: rgba(17, 18, 20, 0.58);
 }
 
 body[data-theme="light"] .overlay .icons i {
@@ -1878,7 +1878,7 @@ body[data-theme="light"] .overlay .icons i {
 body[data-theme="light"] .footer-area,
 body[data-theme="light"] .footer-2,
 body[data-theme="light"] #copyright {
-  background: #eee7f8;
+  background: #e5e6e8;
 }
 
 body[data-theme="light"] .form-control {
