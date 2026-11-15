@@ -32,13 +32,14 @@
 
 
   </head>
-  <body>
+  <body data-theme="dark">
 
     <!-- Header Area wrapper Starts -->
     <header id="header-wrap">
       <!-- Navbar Start -->
       <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar indigo">
         <div class="container">
+          <a class="navbar-brand" href="#hero-area">Daniel Lee</a>
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -83,6 +84,9 @@
               </li>
             </ul>
           </div>
+          <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light mode" aria-pressed="false" title="Switch to light mode">
+            <i class="fa fa-sun-o" aria-hidden="true"></i>
+          </button>
         </div>
 
         <!-- Mobile Menu Start -->
@@ -322,7 +326,7 @@
                   <div class="content-text">
                     <h3 class="line-title">Creative Director / Video Creator, Producer & Editor / Web Developer & Designer</h3>
                     <span>Shift Media | October 2024 – Present</span>
-                    <p class="line-text">AI-Video Generation Tools, Adobe Premiere Pro, After Effects, CapCut, AdobePhotoshop, Figma, Illustrator, HTML5, CSS3, JavaScript, TypeScript, React, Node.js, REST APIs, PostgreSQL, MongoDB.</p>
+                    <p class="line-text">AI-Video Generation Tools, Adobe Premiere Pro, After Effects, CapCut, AdobePhotoshop, Figma, Canva, Illustrator, HTML5, CSS3, JavaScript, TypeScript, React, Node.js, REST APIs, PostgreSQL, MongoDB.</p>
                   </div>
                 </li>
                 <li>
@@ -659,6 +663,7 @@
       document.getElementById("year").innerHTML = d.getFullYear();
       document.getElementById("ex_year").innerHTML = d.getFullYear() - 2019;
       document.getElementById("ex2_year").innerHTML = d.getFullYear() - 2019;
+
 	  </script>
     <script src="assets/js/jquery-min.js"></script>
     <script src="assets/js/popper.min.js"></script>
@@ -672,6 +677,7 @@
     <script src="assets/js/nivo-lightbox.js"></script>
     <script src="assets/js/jquery.slicknav.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/theme.js"></script>
       
   </body>
 </html>
