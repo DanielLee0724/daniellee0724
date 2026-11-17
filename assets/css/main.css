@@ -302,6 +302,15 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .profile-wrapper .btn {
   margin: 10px 10px 0px 0px;
+  width: 180px;
+  height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-wrapper .about-website-button {
+  margin-top: 25px;
 }
 
 .profile-wrapper .btn i {
