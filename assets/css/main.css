@@ -1645,6 +1645,12 @@ a.back-to-top i:hover {
   }
 }
 
+@media (min-width: 992px) {
+  #about .profile-wrapper {
+    margin-left: 32px;
+  }
+}
+
 @media (max-width: 767px) {
   .section-padding {
     padding: 72px 0;
